@@ -1,0 +1,441 @@
+
+  
+  @media only screen
+  and (min-device-width : 100px)
+  and (max-device-width : 840px) 
+  {
+    .slide-banner {
+      top: 13vh;
+      left: unset;
+      right: 0;
+      height: 100%;
+      width: 100%;
+    }
+    .slider-container {
+      height: inherit;
+    }
+
+    .space-top-short {
+        padding-top: 0px!important;
+    }
+    .space-top-mobile {
+      padding-top: 0px!important;
+    }
+    .animated-background {    
+      height: 60vh;
+    }
+  }
+  @media (min-width: 960px){
+      .slider-container {
+        margin-top: -10px!important;
+      }
+    }
+  .space-top-mobile {
+    padding-top: 105px;
+  }
+
+
+  .goog-te-banner-frame {
+      /*height: 0px!important;*/
+      display: none!important;
+      /*margin-top: -10px;*/
+  }
+
+  #goog-gt-tt {
+  color: transparent !important;
+  background-color: transparent!important;
+  border: none!important;
+  -webkit-box-direction:  none !important;
+  display: none!important;
+  font-size: 0!important;
+  width: 0px!important;
+  position: unset!important;
+  z-index: 0!important;
+}
+
+  
+@media (min-width: 1200px)
+{   
+  .header-content nav {
+       padding:unset; 
+  }
+
+  .social-change-language{        
+      display: block!important;
+  }
+
+  .mega-menu .menu-title{
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #ffff;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    padding-top:15px;
+    font-weight:600;
+  }
+  .mega-menu li:hover,.dropdown-content li:hover{
+    background-color:unset;
+  }
+  .mega-menu li > a, .mega-menu li > span {
+    padding:unset;
+    
+  }
+  .mega-menu {
+    min-width: 900px !important;
+  }
+  .mega-menu-ul{
+    height:290px !important;
+    overflow-y:auto !important;
+  }
+  .dropdown-content{
+    background-color: #000000;
+  }
+  .dropdown-content li > a,.dropdown-content a > li{
+    color:#ffff !important;
+    font-size:14px;
+  }
+  .dropdown-content li > span{
+    color:#ffff !important;
+    font-size:14px;
+  }
+  .dropdown-content li.active{
+    background-color: unset;
+  }
+  .header .logo img {
+    height:65px;
+  }
+
+  .dropdown .dropdown-title{
+    padding-top:30px !important;
+    height:90px !important;
+  }
+  .dropdown-content-ul{
+    margin-top:90px !important;
+  }
+  .header-content{
+    padding:unset !important;
+  }
+  /*.pb-unset{
+    padding-bottom:unset !important;
+  }*/
+
+  .align-item-center{
+    display: flex !important;
+    align-items: center;
+  }
+  .inner-dropdown-content li a{
+    padding-left:10px;
+  }
+
+  .slider-container{
+    margin-top:80px;
+  }
+  .figure{
+    margin-top:90px;
+  }
+}
+
+
+@media (min-width: 960px)
+{   
+  .header-content nav {
+       padding:unset; 
+  }
+  .social-change-language{        
+      display: block!important;
+  }
+
+  .mega-menu .menu-title{
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #ffff;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    padding-top:15px;
+    font-weight:600;
+  }
+  .mega-menu li:hover,.dropdown-content li:hover{
+    background-color:unset;
+  }
+  .mega-menu li > a, .mega-menu li > span {
+    padding:unset;
+    
+  }
+  .mega-menu {
+    min-width: 800px !important;
+  }
+  .mega-menu-ul{
+    height:290px !important;
+    overflow-y:auto !important;
+  }
+  .dropdown-content{
+    background-color: #000000;
+  }
+  .dropdown-content li > a,.dropdown-content a > li{
+    color:#ffff !important;
+    font-size:14px;
+  }
+  .dropdown-content li > span{
+    color:#ffff !important;
+    font-size:14px;
+  }
+  .dropdown-content li.active{
+    background-color: unset;
+  }
+  .header .logo img {
+    height:65px;
+  }
+
+  .dropdown .dropdown-title{
+    padding-top:30px !important;
+    height:85px !important;
+  }
+  .dropdown-content-ul{
+    margin-top:85px !important;
+  }
+  .header-content{
+    padding:unset !important;
+  }
+  /*.pb-unset{
+    padding-bottom:unset !important;
+  }*/
+
+  .align-item-center{
+    display: flex !important;
+    align-items: center;
+  }
+  .inner-dropdown-content li a{
+    padding-left:10px;
+  }
+
+  .slider-container{
+    margin-top:80px;
+  }
+
+  .figure{
+    margin-top:30px;
+  }
+}
+
+@media (min-width: 580px) and (max-width: 960px)
+{  
+  .social-change-language{        
+      display: block!important;
+  }
+  .slider-container{
+    margin-top:90px;
+  }
+  .figure{
+    margin-top:30px;
+  }
+  
+}
+
+@media (max-width: 579px)
+{  
+  .header .container .row > div {
+   width: 100% !important;
+   /*padding:unset !important;*/
+  }
+  .header-content{
+    width:70% !important;
+    margin:auto !important;
+    justify-content: center !important;
+  }
+  .socmed a{
+   margin:2px;
+  }
+  .slider-container{
+    margin-top:150px !important;
+  }
+  .figure{
+    margin-top:50px !important;
+  }
+}
+
+.app-menubar .btn-icon{
+background-color: black !important;
+border-radius: 5px;
+width: 50px;
+}
+
+.hamburger-inner{
+width:24px;
+}
+
+.hamburger-box {
+  width: 10px;
+  height: 20px;
+  display: inline-block;
+  position: relative;
+  margin-left:-15px;
+}
+
+.scrollnav{
+justify-content: space-around !important;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #555; 
+}
+.md-img {
+  width: 10em $!important;
+  height: 10em $!important;
+}
+
+
+.select-dropdown.dropdown-content li.selected {
+  background-color: black;
+}
+
+
+
+
+/*image zoom effect css*/
+  .img-hover-zoom {
+  height: 300px;
+   /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(1.3);
+}
+
+/* HOME STAY TOUCH BACKGROUND CSS AND IMAGE*/
+.container-background
+{
+    background-image: url(https://crystalcorp.com/public/upload/banner/stay.jpeg);
+    background-position-x: center;
+}
+
+/*header logo*/
+.header.fixed .logo img 
+{
+    height: 60px !important;
+    width: auto !important;
+
+}
+.general-card {
+    
+    width: 290px !important;
+    height: 169px !important;
+}
+
+
+.slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.slider-container h1 {
+    color: #fff;
+    font-size: 100px;
+    letter-spacing: 5px;
+    position: relative;
+    z-index: 100;
+    text-align: center;
+}
+
+.slider-container::after {
+    background-color: #fff;
+    content: '';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.slide-banner {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    transform: scale(1.15);
+    transition: opacity .6s ease;
+}
+
+.slide-banner.active {
+    animation: grow 4s linear forwards;
+    opacity: 1;
+}
+
+@keyframes grow {
+    0%, 20% {
+        transform: scale(1);
+    }
+    
+    75%, 100% {
+        transform: scale(1.15);
+    }
+}
+
+.controls-container {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.control {
+    background-color: #fff;
+    cursor: pointer;
+    opacity: 0.5;
+    margin: 6px;
+    height: 40px;
+    width: 5px;
+    transition: opacity 0.3s, background-color 0.3s, transform 0.3s;
+}
+
+.control.active, .control:hover {
+    background-color: #fff;
+    opacity: 1;
+    transform: scale(1.2);
+}
+.btn-floating.btn-large.primary.tooltipped.waves-effect.waves-light {
+    top: -99px;
+    left: 13px;
+    border-radius: 40px;
+}
+
+    
+
